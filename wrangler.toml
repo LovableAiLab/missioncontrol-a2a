@@ -1,4 +1,4 @@
-name = "missioncontrol-a2a"
+name = "mission-control"
 type = "webpack"
 account_id = ""
 workers_dev = false
