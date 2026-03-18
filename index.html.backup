@@ -291,7 +291,7 @@
         </div>
         
         <footer class="footer">
-            <p>Deployed on Cloudflare Pages: <span id="deploy-time">2026-03-18 18:23:16 UTC - AUTO-DEPLOY TEST</span></p>
+            <p>Deployed on Cloudflare Pages: <span id="deploy-time">Loading...</span></p>
             <p>Payment: x402 Protocol | Network: Base | Token: USDC</p>
             <p>Revenue starts automatically within 1 week of deployment</p>
             <p style="margin-top: 30px; font-size: 0.9rem; color: #555;">
