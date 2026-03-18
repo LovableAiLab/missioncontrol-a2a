@@ -1,0 +1,14 @@
+name = "missioncontrol-a2a"
+type = "webpack"
+account_id = ""
+workers_dev = false
+pages_build_output_dir = "."
+compatibility_date = "2026-03-18"
+
+[[routes]]
+pattern = "/*"
+script_name = "_worker"
+
+[[routes]]
+pattern = "/.well-known/*"
+script_name = "_worker"

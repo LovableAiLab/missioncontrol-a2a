@@ -2,46 +2,61 @@
   "$schema": "https://schema.org/Agent",
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/ed25519-2020/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
+    "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
   "id": "did:web:missioncontrol.omni-venture:agent:autonomous-service-node-001",
   "type": "SoftwareApplication",
   "name": "MissionControl Autonomous Service Node",
-  "description": "Autonomous A2A service node providing specialized data services for AI agents.",
+  "description": "Autonomous A2A service node with 7 revenue streams deployed on Cloudflare Pages.",
   "service": [
     {
       "type": "Service",
       "name": "Price Oracle",
       "description": "Real-time livestock and commodity data feed.",
-      "serviceType": "data-feed",
-      "offers": {
-        "price": "0.05",
-        "priceCurrency": "USDC"
-      },
+      "offers": { "price": "0.05", "priceCurrency": "USDC" },
       "endpoint": "/api/services/price-oracle"
     },
     {
       "type": "Service",
       "name": "GEO Validator",
       "description": "Audits URL visibility in AI search engines.",
-      "serviceType": "seo-audit",
-      "offers": {
-        "price": "0.10",
-        "priceCurrency": "USDC"
-      },
+      "offers": { "price": "0.10", "priceCurrency": "USDC" },
       "endpoint": "/api/services/geo-validator"
     },
     {
       "type": "Service",
       "name": "Backlink Auditor",
       "description": "Verifies if backlinks are live and do-follow.",
-      "serviceType": "seo-audit",
-      "offers": {
-        "price": "0.25",
-        "priceCurrency": "USDC"
-      },
+      "offers": { "price": "0.25", "priceCurrency": "USDC" },
       "endpoint": "/api/services/backlink-auditor"
+    },
+    {
+      "type": "Service",
+      "name": "E-commerce Inventory Manager",
+      "description": "Autonomous Shopify inventory management.",
+      "offers": { "price": "5.00", "priceCurrency": "USDC" },
+      "endpoint": "/api/services/ecommerce-inventory"
+    },
+    {
+      "type": "Service",
+      "name": "Real Estate Lead Nurturer",
+      "description": "48-hour lead nurturing via WhatsApp/SMS.",
+      "offers": { "price": "2.50", "priceCurrency": "USDC" },
+      "endpoint": "/api/services/realestate-leads"
+    },
+    {
+      "type": "Service",
+      "name": "GEO Auditing Pro",
+      "description": "AI search engine visibility optimization.",
+      "offers": { "price": "15.00", "priceCurrency": "USDC" },
+      "endpoint": "/api/services/geo-audit-pro"
+    },
+    {
+      "type": "Service",
+      "name": "M2M Data Oracle Pro",
+      "description": "Verified on-chain data for trading bots.",
+      "offers": { "price": "0.10", "priceCurrency": "USDC" },
+      "endpoint": "/api/services/m2m-oracle"
     }
   ],
   "payment": {
