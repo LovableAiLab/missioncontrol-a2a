@@ -1,8 +1,0 @@
-{
-  "name": "mission-control-static",
-  "version": "1.0.0",
-  "description": "Static A2A service node - no build required",
-  "scripts": {
-    "deploy": "echo 'Static site - no build required'"
-  }
-}
