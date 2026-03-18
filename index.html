@@ -1,142 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <title>MissionControl A2A - LIVE</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MissionControl A2A - 7 Revenue Services</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* SIMPLEST POSSIBLE CSS */
+        body { 
+            background: #000; 
+            color: #0ff;
+            font-family: Arial;
             margin: 0;
             padding: 20px;
-            background: #0a0a0a;
-            color: white;
             text-align: center;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #00d4ff;
+        h1 { 
+            color: #f0f;
             font-size: 3rem;
             margin: 40px 0;
         }
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 40px 0;
-        }
         .service {
-            background: #1a1a1a;
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 4px solid #00d4ff;
+            background: #222;
+            border: 2px solid #0ff;
+            margin: 10px;
+            padding: 15px;
+            display: inline-block;
+            width: 200px;
         }
-        .service.premium {
-            border-left-color: #ff6b6b;
-        }
-        .service-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        .service-title {
-            font-size: 1.5rem;
+        .price {
+            color: #ff0;
             font-weight: bold;
-        }
-        .service-price {
-            background: #00d4ff;
-            color: black;
-            padding: 5px 10px;
-            border-radius: 15px;
-            font-weight: bold;
-        }
-        .service.premium .service-price {
-            background: #ff6b6b;
-        }
-        .footer {
-            margin-top: 40px;
-            color: #888;
-            font-size: 0.9rem;
+            font-size: 1.2rem;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>MissionControl A2A Services</h1>
-        <p style="color: #888; font-size: 1.2rem;">7 Revenue Streams • Autonomous Revenue Generation</p>
-        
-        <div class="services">
-            <div class="service">
-                <div class="service-header">
-                    <div class="service-title">Price Oracle</div>
-                    <div class="service-price">0.05 USDC</div>
-                </div>
-                <p>Real-time commodity data feed</p>
-            </div>
-            
-            <div class="service">
-                <div class="service-header">
-                    <div class="service-title">GEO Validator</div>
-                    <div class="service-price">0.10 USDC</div>
-                </div>
-                <p>AI search visibility audit</p>
-            </div>
-            
-            <div class="service">
-                <div class="service-header">
-                    <div class="service-title">Backlink Auditor</div>
-                    <div class="service-price">0.25 USDC</div>
-                </div>
-                <p>Live/Do-Follow verification</p>
-            </div>
-            
-            <div class="service premium">
-                <div class="service-header">
-                    <div class="service-title">E-commerce Manager</div>
-                    <div class="service-price">5.00 USDC</div>
-                </div>
-                <p>Shopify inventory automation</p>
-            </div>
-            
-            <div class="service premium">
-                <div class="service-header">
-                    <div class="service-title">Real Estate Nurturer</div>
-                    <div class="service-price">2.50 USDC</div>
-                </div>
-                <p>WhatsApp/SMS lead nurturing</p>
-            </div>
-            
-            <div class="service premium">
-                <div class="service-header">
-                    <div class="service-title">GEO Auditing Pro</div>
-                    <div class="service-price">15.00 USDC</div>
-                </div>
-                <p>AI search optimization</p>
-            </div>
-            
-            <div class="service premium">
-                <div class="service-header">
-                    <div class="service-title">M2M Data Oracle</div>
-                    <div class="service-price">0.10 USDC</div>
-                </div>
-                <p>On-chain data for trading bots</p>
-            </div>
-        </div>
-        
-        <div class="footer">
-            <p>Deployed: <span id="time">Loading...</span></p>
-            <p>Payment: x402 Protocol | Network: Base | Token: USDC</p>
-            <p>A2A Discovery: <a href="/.well-known/agent.json" style="color: #00d4ff;">/.well-known/agent.json</a></p>
-        </div>
+    <h1>✅ MissionControl A2A</h1>
+    <p style="color: #0f0; font-size: 1.5rem;">7 Revenue Services • LIVE</p>
+    
+    <div class="service">
+        <h3>Price Oracle</h3>
+        <div class="price">0.05 USDC</div>
+    </div>
+    
+    <div class="service">
+        <h3>GEO Validator</h3>
+        <div class="price">0.10 USDC</div>
+    </div>
+    
+    <div class="service">
+        <h3>Backlink Auditor</h3>
+        <div class="price">0.25 USDC</div>
+    </div>
+    
+    <div class="service">
+        <h3>E-commerce Manager</h3>
+        <div class="price">5.00 USDC</div>
+    </div>
+    
+    <div class="service">
+        <h3>Real Estate Nurturer</h3>
+        <div class="price">2.50 USDC</div>
+    </div>
+    
+    <div class="service">
+        <h3>GEO Auditing Pro</h3>
+        <div class="price">15.00 USDC</div>
+    </div>
+    
+    <div class="service">
+        <h3>M2M Data Oracle</h3>
+        <div class="price">0.10 USDC</div>
+    </div>
+    
+    <div style="margin-top: 40px; color: #888;">
+        <p>Deployed: <span id="time">Loading...</span></p>
+        <p>A2A: <a href="/.well-known/agent.json" style="color: #0ff;">agent.json</a></p>
     </div>
     
     <script>
+        // SIMPLEST POSSIBLE JS
         document.getElementById('time').textContent = new Date().toLocaleString();
-        console.log('MissionControl A2A Services loaded successfully');
+        console.log('MissionControl loaded at ' + new Date().toISOString());
     </script>
 </body>
 </html>
